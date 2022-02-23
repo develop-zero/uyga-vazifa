@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Comforter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/comforter-v3-latin-regular.woff2") format("woff2"),
+    url("../fonts/comforter-v3-latin-regular.woff") format("woff");
+}
+/* rubik-beastly-regular - latin-ext_latin_hebrew_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: "Rubik Beastly";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/rubik-beastly-v5-latin-ext_latin_hebrew_cyrillic-ext_cyrillic-regular.woff2")
+      format("woff2"),
+    url("../fonts/rubik-beastly-v5-latin-ext_latin_hebrew_cyrillic-ext_cyrillic-regular.woff")
+      format("woff");
+}
+/* mochiy-pop-one-regular - latin */
+@font-face {
+  font-family: "Mochiy Pop One";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/mochiy-pop-one-v5-latin-regular.woff2") format("woff2"),
+    url("../fonts/mochiy-pop-one-v5-latin-regular.woff") format("woff");
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mochiy Pop One";
+}
+.container {
+  width: 1200px;
+  height: 750px;
+  margin: 70px auto;
+}
+.main-container {
+  display: flex;
+}
+.data-list {
+  display: flex;
+  list-style-type: none;
+  margin-left: 400px;
+  margin-top: 25px;
+}
+.data-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 15px;
+  color: rgb(41, 40, 40);
+}
+.visiting-city-title {
+  font-weight: normal;
+  width: 450px;
+  height: 170px;
+  font-size: 54px;
+  margin-top: 90px;
+  margin-left: 100px;
+}
+.visiting-city-text {
+  font-family: "Rubik Beastly";
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.visiting-city-box {
+  margin-top: 100px;
+  margin-left: 100px;
+  display: flex;
+}
+
+.link-city {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+
+  margin-left: 100px;
+}
+.city-box-title {
+  width: 300px;
+  margin-left: 40px;
+}
